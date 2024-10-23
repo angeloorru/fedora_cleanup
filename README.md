@@ -28,3 +28,6 @@ You will be prompted to enter your `root` password. Wait for the script to finis
 There are some commands in the script that are marked as OPTIONAL. These commands should only be run occasionally 
 (e.g., monthly or more). If you need them, uncomment the relevant lines in the script, save the file, and then run the script 
 as described above.
+
+### Sample Output
+![Sample Output](images/sample_output.png)
