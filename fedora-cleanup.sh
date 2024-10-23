@@ -8,7 +8,9 @@
 echo "Cleaning DNF package cache..."
 sudo dnf clean all
 
-# Comment this if using GNOME DE as this is only for KDE DE
+echo "Removing orphaned packages..."
+sudo dnf autoremove -y
+
 echo "Cleaning /tmp and KDE cache..."
 sudo rm -rf /tmp/*
 rm -rf ~/.cache/*
@@ -19,9 +21,6 @@ rm -rf ~/.cache/thumbnails/*
 # OPTIONAL- Uncomment lines below to run
 #echo "Removing old kernels, keeping the latest 2..."
 #sudo dnf remove $(dnf repoquery --installonly --latest-limit=-2 -q)
-
-echo "Removing orphaned packages..."
-sudo dnf autoremove -y
 
 echo "Removing old versions of Flatpak apps..."
 flatpak uninstall --unused
