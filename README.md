@@ -1,23 +1,30 @@
 # fedora_cleanup
-A script to clean Fedora and KDE
+A script to clean Fedora OS with KDE 
 
 # How to run it
 
 #### Step 1: Download the file into your computer 
-(i.e. home/Downloads)
+For example, save it to your ~/Downloads directory.
 
 #### Step 2: Make the file executable: 
 Navigate to the directory where the script is saved. 
-If it's in the `Downloads` folder, use this commands:
+Assuming the file is downloaded into the `Downloads` folder, use this commands:
 ```bash
 `cd ~/Downloads && chmod +x fedora-cleanup.sh`
 ```
 
-#### Step 3: Run the file:
-`./fedora-cleanup.sh`
+If the file is downloaded into a different directory, change the "`~/Downloads`" part accordingly 
 
-Enter your root password and wait for the script to terminate
+#### Step 3: Run the script:
+To run the script, use the following command:
+```bash 
+./fedora-cleanup.sh
+```
 
-There are some commands which can run from time to time only.
-These are marked with the OPTIONAL tag and you if you need them, 
-uncomment the pertinent lines and save the file before running the script.
+You will be prompted to enter your `root` password. Wait for the script to finish executing.
+
+## Optional Commands
+
+There are some commands in the script that are marked as OPTIONAL. These commands should only be run occasionally 
+(e.g., monthly or more). If you need them, uncomment the relevant lines in the script, save the file, and then run the script 
+as described above.
