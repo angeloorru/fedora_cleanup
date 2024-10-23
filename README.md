@@ -11,6 +11,7 @@ Navigate to the directory where the script is saved.
 If it's in the `Downloads` folder, use this commands:
 ```bash
 `cd ~/Downloads && chmod +x fedora-cleanup.sh`
+```
 
 #### Step 3: Run the file:
 `./fedora-cleanup.sh`
