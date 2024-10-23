@@ -29,5 +29,8 @@ There are some commands in the script that are marked as OPTIONAL. These command
 (e.g., monthly or more). If you need them, uncomment the relevant lines in the script, save the file, and then run the script 
 as described above.
 
+** The script assumes that you have Flatpak repositories enabled as well. If you do not, please comment out or remove the 
+Flatpak scripts, as they are unnecessary and may cause the Terminal to throw an error.
+
 ### Sample Output
 ![Sample Output](images/sample_output.png)
