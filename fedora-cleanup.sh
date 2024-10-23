@@ -43,5 +43,15 @@ find ~ -xtype l -delete
 #echo "Cleaning systemd residual files..."
 #sudo systemctl clean <service-name>
 
-echo "Cleanup completed!"
-echo "Well done!"
+echo
+echo
+echo
+
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+echo -e "${CYAN}┌───────────────────────────────┐${NC}"
+echo -e "${CYAN}│ ${GREEN} Cleanup completed! ✅        ${CYAN}│${NC}"
+echo -e "${CYAN}│ ${GREEN} Well done! 👍                ${CYAN}│${NC}"
+echo -e "${CYAN}└───────────────────────────────┘${NC}"
