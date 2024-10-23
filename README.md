@@ -18,5 +18,5 @@ If it's in the `Downloads` folder, use this commands:
 Enter your root password and wait for the script to terminate
 
 There are some commands which can run from time to time only.
-These are marked with the OPTIONAL tag and you need to uncomment and save the file
-before running the script.
+These are marked with the OPTIONAL tag and you if you need them, 
+uncomment the pertinent lines and save the file before running the script.
